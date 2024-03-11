@@ -1,6 +1,6 @@
 import React from "react";
 
-export function ProjectPreview({ name, description, image }) {
+function ProjectPreview({ name, description, image }) {
   return (
     <div className="project-preview">
       <h3 style={{ marginTop: "5rem" }}>{name}</h3>
@@ -9,3 +9,4 @@ export function ProjectPreview({ name, description, image }) {
     </div>
   );
 }
+export default ProjectPreview;
