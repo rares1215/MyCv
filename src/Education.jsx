@@ -1,6 +1,6 @@
 import ProgressBar from "react-bootstrap/ProgressBar";
 import React, { useEffect } from "react";
-// import ProjectPreview from "./projectpreview";
+import ProjectPreview from "./projectpreview";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Aos from "aos";
@@ -144,6 +144,47 @@ export function Education() {
           </div>
         </div>
       </div>
+
+      <section className="project-preview">
+        <h2 className="rubik-semi-bold">Featured Projects</h2>
+        <p style={{ marginTop: "1rem" }}>
+          Explore some of my latest work below:
+        </p>
+
+        {/* Display previews of your projects here */}
+        <div className="project-preview">
+          <h3 style={{ marginTop: "5rem" }}>Newsletter</h3>
+          <p style={{ marginTop: "1rem", marginBottom: "2rem" }}>
+            A newsletter site
+          </p>
+          <img
+            style={{ height: "75%", width: "75%" }}
+            src={image3}
+            alt="Newsletter"
+          />
+        </div>
+
+        <div className="project-preview">
+          <h3 style={{ marginTop: "5rem" }}>Tracalorie</h3>
+          <p style={{ marginTop: "1rem", marginBottom: "2rem" }}>
+            An app made for tracking calories
+          </p>
+          <img
+            style={{ height: "75%", width: "75%" }}
+            src={image4}
+            alt="Tracalorie"
+          />
+        </div>
+
+        {/* Add more project previews as needed */}
+        <button
+          style={{ marginTop: "rem" }}
+          className="btn btn-lg btn-dark work-page-button:hover"
+          onClick={navigateToPortofolio}
+        >
+          See full Portfolio Here
+        </button>
+      </section>
 
       <hr />
 
