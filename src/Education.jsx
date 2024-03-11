@@ -152,7 +152,7 @@ export function Education() {
         </p>
 
         {/* Display previews of your projects here */}
-        <ProjectPreview
+{/*         <ProjectPreview
           name="Newsletter"
           description="A newsletter site"
           image={image3}
@@ -164,16 +164,16 @@ export function Education() {
         />
 
         {/* Add more project previews as needed */}
-        <button
-          style={{ marginTop: "rem" }}
-          className="btn btn-lg btn-dark work-page-button:hover"
-          onClick={navigateToPortofolio}
-        >
-          {" "}
-          See full Portofolio Here
-        </button>
-      </section>
- */}
+      //   <button
+      //     style={{ marginTop: "rem" }}
+      //     className="btn btn-lg btn-dark work-page-button:hover"
+      //     onClick={navigateToPortofolio}
+      //   >
+      //     {" "}
+      //     See full Portofolio Here
+      //   </button>
+      // </section> */}
+  
       <hr />
 
       <h2 className="education-title roboto-black-italic ">Skills</h2>
