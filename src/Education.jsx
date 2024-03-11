@@ -145,7 +145,7 @@ export function Education() {
         </div>
       </div>
 
-      <section className="project-preview">
+{/*       <section className="project-preview">
         <h2 className="rubik-semi-bold">Featured Projects</h2>
         <p style={{ marginTop: "1rem" }}>
           Explore some of my latest work below:
@@ -173,7 +173,7 @@ export function Education() {
           See full Portofolio Here
         </button>
       </section>
-
+ */}
       <hr />
 
       <h2 className="education-title roboto-black-italic ">Skills</h2>
