@@ -1,6 +1,6 @@
 import ProgressBar from "react-bootstrap/ProgressBar";
-// import React, { useEffect } from "react";
-import  ProjectPreview  from "./Projectpreview.jsx";
+import React, { useEffect } from "react";
+// import ProjectPreview from "./projectpreview";
 import { useNavigate } from "react-router-dom";
 import { Link } from "react-router-dom";
 import Aos from "aos";
@@ -145,35 +145,6 @@ export function Education() {
         </div>
       </div>
 
-{/*       <section className="project-preview">
-        <h2 className="rubik-semi-bold">Featured Projects</h2>
-        <p style={{ marginTop: "1rem" }}>
-          Explore some of my latest work below:
-        </p>
-
-        {/* Display previews of your projects here */}
-{/*         <ProjectPreview
-          name="Newsletter"
-          description="A newsletter site"
-          image={image3}
-        />
-        <ProjectPreview
-          name="Tracalorie"
-          description="An app made for tracking calories"
-          image={image4}
-        />
-
-        {/* Add more project previews as needed */}
-      //   <button
-      //     style={{ marginTop: "rem" }}
-      //     className="btn btn-lg btn-dark work-page-button:hover"
-      //     onClick={navigateToPortofolio}
-      //   >
-      //     {" "}
-      //     See full Portofolio Here
-      //   </button>
-      // </section> */}
-  
       <hr />
 
       <h2 className="education-title roboto-black-italic ">Skills</h2>
