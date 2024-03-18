@@ -27,18 +27,20 @@ export function AllMyWork() {
 
   return (
     <>
-      <nav className=" work-page-nav navbar navbar-expand-lg navbar-dark bg-dark p-3">
-        <div className="container-fluid">
-          <button
-            onClick={navigateHome}
-            className="btn btn-lg btn-dark work-page-button:hover"
-          >
-            {arrow}
-          </button>
-          <h1 className="navbar-brand mx-auto work-page-title">Portofolio</h1>
-        </div>
-      </nav>
+    <div className="page-container">
+    <nav className="work-page-nav navbar navbar-expand-lg navbar-dark bg-dark p-3">
+      <div className="container-fluid">
+        <button
+          onClick={navigateHome}
+          className="btn btn-lg btn-dark work-page-button:hover"
+        >
+          {arrow}
+        </button>
+        <h1 className="navbar-brand mx-auto work-page-title">Portofolio</h1>
+      </div>
+    </nav>
 
+      <div className="projects-container">
       <Projects
         link="https://my-first-personal-site.onrender.com"
         source={work3}
@@ -102,6 +104,8 @@ export function AllMyWork() {
         name="TraCalorie"
         description="It s a web app made to help you track your calories through out the day, made with JavaScript and WebPack "
       />
+      </div>
+      </div>
 
       {/* <Projects
         link="https://kepper-app.onrender.com"
