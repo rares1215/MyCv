@@ -97,13 +97,6 @@ export function AllMyWork() {
         description="A streaming service type website made with only pure JavaScript"
       />
 
-      <Projects
-        link="https://trackcalorie.onrender.com"
-        source={work9}
-        alt=" A track calorie  app"
-        name="TraCalorie"
-        description="It s a web app made to help you track your calories through out the day, made with JavaScript and WebPack "
-      />
       </div>
       </div>
 
