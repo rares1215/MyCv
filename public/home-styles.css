@@ -58,8 +58,8 @@ width: 100%;
  }
  
 .home-container img {
-    width: 24rem;
-    border-radius: 50%;
+     width: 18rem;
+    border-radius: 50%; 
 }
 
 hr {
@@ -71,7 +71,7 @@ hr {
 }
 
 .home-img-col{
-    margin-top: 1rem;
+    margin-top: 0.3rem;
 }
  
 /* //////////////////////////////////////////////ABOUT STYLES///////////////////////////////////////// */
