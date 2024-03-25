@@ -1,6 +1,7 @@
 import React, { useEffect } from "react";
 import Aos from "aos";
 import "aos/dist/aos.css";
+import profile from "./images/Profile.jpeg"
 <style>
   @import
   url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;1,200&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap')
@@ -32,7 +33,7 @@ export function Home() {
           <div className="col-lg-6 col-md-12 col-sm-12 home-img-col">
             {/* Use Bootstrap's img-fluid class for responsive images */}
             <img
-              src="https://img.freepik.com/free-photo/portrait-white-man-isolated_53876-40306.jpg?w=2000"
+              src={profile}
               className="img-fluid"
               alt="A person"
             />
